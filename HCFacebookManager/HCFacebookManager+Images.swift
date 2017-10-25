@@ -45,7 +45,7 @@ extension HCFacebookManager
     ///   - success: Success completion block if fetching albums was successful
     ///   - failed: Error completion block if fetching albums was unsuccessful
     ///   - afterCursor: After cursor for fetching albums from a specific position
-    open func getAlbums(success:@escaping (_ albums:[HCFacebookAlbum],_ nextCursor:String?) -> Void, failed:@escaping (Error) -> Void, afterCursor:String? = nil)
+	open func getAlbums(success:@escaping (_ albums:[HCFacebookAlbum],_ nextCursor:String?) -> Void, failed:@escaping (Error) -> Void, afterCursor:String? = nil)
     {
         let url = "/me/albums"
         var params = ["fields": "id, name, count, cover_photo"]
