@@ -11,6 +11,7 @@ import FacebookCore
 import FacebookLogin
 import FacebookShare
 import CoreLocation
+import HCFramework
 
 // MARK: - Events extension for HCFacebookManager
 extension HCFacebookManager
