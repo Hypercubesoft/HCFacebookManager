@@ -23,7 +23,7 @@ open class HCFacebookImage
     /// - Parameters:
     ///   - imageId: Image id
     ///   - imageUrl: Image url
-    open init(imageId:String, imageUrl:String)
+    public init(imageId:String, imageUrl:String)
     {
         self.imageId = imageId
         self.imageUrl = imageUrl

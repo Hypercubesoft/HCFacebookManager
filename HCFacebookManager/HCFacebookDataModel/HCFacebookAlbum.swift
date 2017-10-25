@@ -31,7 +31,7 @@ open class HCFacebookAlbum
     ///   - albumName: Album name
     ///   - albumCount: Number of images in album
     ///   - albumCoverPhotoId: Album cover photo id
-    open init(albumId:String, albumName:String, albumCount:Int, albumCoverPhotoId:String)
+    public init(albumId:String, albumName:String, albumCount:Int, albumCoverPhotoId:String)
     {
         self.albumId = albumId
         self.albumName = albumName

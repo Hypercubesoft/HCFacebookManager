@@ -45,7 +45,7 @@ open class HCFacebookUser
     ///   - lastName: Facebook user last name
     ///   - hasPicture: Boolean value which indicates if user has profile picture, or his picture is a silhouette
     ///   - picture: Facebook user profile picture
-    open init(id:String, name:String, firstName:String, lastName:String, hasPicture:Bool, picture:String, homeTown:String, email:String)
+    public init(id:String, name:String, firstName:String, lastName:String, hasPicture:Bool, picture:String, homeTown:String, email:String)
     {
         self.id = id
         self.name = name

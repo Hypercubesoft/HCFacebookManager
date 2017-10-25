@@ -23,5 +23,6 @@ s.dependency 'FacebookShare'
 s.dependency 'FBSDKCoreKit'
 s.dependency 'FBSDKLoginKit'
 s.dependency 'FBSDKShareKit', '~> 4.22.1'
+s.dependency 'HCFramework'
 
 end

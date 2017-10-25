@@ -67,7 +67,7 @@ open class HCFacebookEvent
     ///   - city: City
     ///   - eventPicture: Event picture
     ///   - eventPictureId: Event picture id
-    open init(eventId:String, eventName:String, startTime:Date, endTime:Date, isCanceled:Bool, eventDescription:String, placeName:String, eventLocation:CLLocationCoordinate2D, street:String, country:String, city:String, eventPicture:String, eventPictureId:String)
+    public init(eventId:String, eventName:String, startTime:Date, endTime:Date, isCanceled:Bool, eventDescription:String, placeName:String, eventLocation:CLLocationCoordinate2D, street:String, country:String, city:String, eventPicture:String, eventPictureId:String)
     {
         self.eventId = eventId
         self.eventName = eventName
