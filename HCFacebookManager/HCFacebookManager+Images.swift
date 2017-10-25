@@ -70,7 +70,7 @@ extension HCFacebookManager
     /// - Parameters:
     ///   - graphResponse: GraphResponse instance
     ///   - success: Success completion block if fetching albums was successful
-    open func handleGraphResponseForAlbumsList(graphResponse:GraphResponse, success:@escaping ([HCFacebookAlbum],_ nextCursor:String?) -> Void)
+    open func handleGraphResponseForAlbumsList(graphResponse:GraphResponse, success:@escaping ([HCFacebookAlbum],_ nextCursor:String?) -> Void)
     {
         var albums = [HCFacebookAlbum]()
         if let albumsDict = graphResponse.dictionaryValue
