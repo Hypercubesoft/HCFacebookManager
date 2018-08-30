@@ -18,6 +18,11 @@ extension HCFacebookManager
     
     // MARK: - Redirection
     
+    open func didFinishLaunching(_ app: UIApplication, options: [UIApplicationLaunchOptionsKey : Any]? = [:]) -> Bool
+    {
+        return SDKApplicationDelegate.shared.application(app, didFinishLaunchingWithOptions: options)
+    }
+    
     /// Function to handle the log in redirect back to your app needed in AppDelegate
     ///
     /// - Parameters:
